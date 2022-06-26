@@ -1,0 +1,151 @@
+.container {
+  max-width: 1400px;
+  width: 100%;
+  padding: 0 40px 0 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo_img{
+  width: 60px;
+  height: 60px;
+  border:none;
+  outline: none;
+  display: none;
+}
+/* .menu{
+ 
+  overflow-x: hidden;
+  background:#000;
+  padding: 0 20px;
+} */
+
+
+.navigation {
+
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  color: white;
+  
+}
+.brand-name {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+.navigation {
+  margin-left: auto;
+  
+}
+.navigation ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: auto;
+  bottom: 0%;
+  z-index: 50;
+  display: flex;
+  width: 7%;
+  padding: 0;
+  height: 100vh;
+  text-align: center;
+  padding-bottom: 0px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-color: transparent;
+  background-color: #fed43a;
+}
+ .navigation ul li {
+  list-style-type: none;
+}
+ .navigation ul li a {
+  text-decoration: none;
+  display: block;
+  margin: 0px;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-content: space-around;
+  align-self: center;
+  flex: 0 0 auto;
+  font-family: roc-grotesk, sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+ 
+  transform: rotate(-90deg);
+}
+
+.navigation-menu li {
+  
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu li a {
+  
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  color: #fff;
+}
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #283b8b;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 30px;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+.hamburger:hover {
+  background-color: #2642af;
+}
+/* Header start */
+.header{
+  background: rgba(0,0,0,.658) url(../src/home.jpg) no-repeat center center/cover;
+  padding: 250px 0;
+  background-blend-mode: multiply;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header h3{
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+  padding-bottom: 30px;
+  font-style: normal;
+}
+
+.header h1{
+  font-size: 60px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+}
